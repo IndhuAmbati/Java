@@ -13,10 +13,10 @@ class SavingsAccount {
         annualInterestRate = newRate;
     }
 public void getSavingsBalance() {
-        System.out.printf("Savings Balance: $%.2f%n", savingsBalance);
+        System.out.printf("Savings Balance: %.2f%n", savingsBalance);
 
     }
-    public static void main(String[] args) {
+    public static void main(String s[]) {
         SavingsAccount.modifyInterestRate(0.04);
         SavingsAccount account1 = new SavingsAccount(1000.0);
         account1.calculateMonthlyInterest();
