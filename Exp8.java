@@ -35,11 +35,11 @@ class Circle extends Shape {
 }
 class Exp8 {
     public static void main(String[] args) {
-        Shape obj1 = new Rectangle(10, 20);
-        obj1.printArea(); 
-        Shape obj2 = new Triangle(30, 40);
-        obj2.printArea();  
-        Shape obj3 = new Circle(1);
-        obj3.printArea();  
+        Rectangle r = new Rectangle(10, 20);
+        r.printArea(); 
+        Triangle t = new Triangle(30, 40);
+        t.printArea();  
+        Circle c = new Circle(1);
+        c.printArea();  
     }
 }
