@@ -15,7 +15,7 @@ class Invoice {
         System.out.println("Invoice Amount:  "+(quantity * pricePerItem));
     }
 }
- public class Exp1 {
+ class Exp1 {
     public static void main(String[] args) {
         Invoice invoice = new Invoice("123", "Book", 5, 12.99);
         invoice.getInvoiceAmount();
