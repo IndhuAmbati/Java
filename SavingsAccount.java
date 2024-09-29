@@ -1,7 +1,7 @@
 import java.util.*;
 class SavingsAccount {
     static double annualInterestRate;
-    double savingsBalance;
+    private double savingsBalance;
     public SavingsAccount(double initialBalance) {
         savingsBalance = initialBalance;
     }
