@@ -26,7 +26,7 @@ class TimeConverter extends Converter {
         System.out.println(value + " minutes is equal to " + (value / 60) + " hours");
     }
 }
-public class Exp10 {
+class Exp10 {
     public static void main(String[] args) {
         CurrencyConverter currencyConverter = new CurrencyConverter();
         DistanceConverter distanceConverter = new DistanceConverter();
