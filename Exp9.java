@@ -22,11 +22,11 @@ class BankC extends Bank {
 }
 class  Exp9{
     public static void main(String[] args) {
-        Bank bankA = new BankA();
-        Bank bankB = new BankB();
-        Bank bankC = new BankC();
-bankA.getBalance();
-bankB.getBalance();
-bankC.getBalance();
+        Bank a = new BankA();
+        Bank b = new BankB();
+        Bank c = new BankC();
+a.getBalance();
+b.getBalance();
+c.getBalance();
     }
 }
