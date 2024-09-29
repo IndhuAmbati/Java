@@ -1,27 +1,27 @@
 import java.util.*;
-class PangramChecker {
-    static int isPangram(String sentence) {
-        sentence = sentence.toLowerCase();
-        boolean[] alphabet = new boolean[26];
-        int len = sentence.length();
-    for (int i = 0; i < len; i++) {
-            char c = sentence.charAt(i);
-            if (c >= 'a' && c <= 'z') {
-                alphabet[c - 'a'] = true;
+import java.lang.*;
+class Pangram{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        int alphabets[] = new int[26];
+        for(int i=0;i<26;i++){
+            alphabets[i]=0;
+        }
+        String s2=s1.toLowerCase().replace(" ","");int count=0;
+        for(int i=0;i<s2.length();i++){
+            int a = s2.charAt(i);
+            if((a<97)&&(a>(97+26))){
+                count++;
+            }
+            alphabets[a-97]=alphabets[a-97]+1;
+        }
+        for(int i=0;i<26;i++){
+            if(alphabets[i]==0){
+                System.out.println("Not a pangram");
+                System.exit(0);
             }
         }
- for (int i = 0; i < 26; i++) {
-            if (!alphabet[i]) {
-                return -1;
-            }
-        }
-  return 1;
-    }
- public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a sentence:");
-        String sentence = scanner.nextLine();
-     int result = isPangram(sentence);
-        System.out.println(result);
+        System.out.println("It is a pangram");
     }
 }
