@@ -29,9 +29,9 @@ class TimeConverter extends Converter {
 }
 class Exp10 {
     public static void main(String[] args) {
-        CurrencyConverter currencyConverter = new CurrencyConverter();
-        DistanceConverter distanceConverter = new DistanceConverter();
-        TimeConverter timeConverter = new TimeConverter();
+        CurrencyConverter c = new CurrencyConverter();
+        DistanceConverter d = new DistanceConverter();
+        TimeConverter t = new TimeConverter();
         double dollar = 100;
         double meter = 1000;
         double hours = 2;
@@ -39,11 +39,11 @@ class Exp10 {
         double km = 1;
         double minutes = 120;
 
-   currencyConverter.convert(dollar);
-   currencyConverter.convertINRToDollar(inr);
-   distanceConverter.convert(meter);
-   distanceConverter.convertKMToMeter(km);
-   timeConverter.convert(hours);
-   timeConverter.convertMinutesToHours(minutes);
+   c.convert(dollar);
+   c.convertINRToDollar(inr);
+   d.convert(meter);
+   d.convertKMToMeter(km);
+   t.convert(hours);
+   t.convertMinutesToHours(minutes);
     }
 }
