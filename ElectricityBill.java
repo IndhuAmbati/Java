@@ -39,9 +39,9 @@ class ElectricityBill {
         System.out.println(units * rate);
     }
 public static void main(String[] args) {
-        ElectricityBill bill = new ElectricityBill();
-        bill.details();
-        bill.calculateBill();
+        ElectricityBill b = new ElectricityBill();
+        b.details();
+        b.calculateBill();
     }
 }
 }
