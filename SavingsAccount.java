@@ -18,8 +18,8 @@ public void getSavingsBalance() {
     }
     public static void main(String s[]) {
         SavingsAccount.modifyInterestRate(0.04);
-        SavingsAccount account1 = new SavingsAccount(1000.0);
-        account1.calculateMonthlyInterest();
-         account1.getSavingsBalance();
+        SavingsAccount a = new SavingsAccount(1000.0);
+        a.calculateMonthlyInterest();
+         a.getSavingsBalance();
             }
 }
