@@ -1,6 +1,6 @@
 import java.util.*;  
-public class StringMerge {  
-    public static String mergeStrings(String s1, String s2) {  
+class StringMerge {  
+     static String mergeStrings(String s1, String s2) {  
         String merged = "";  
         int len1 = s1.length();  
         int len2 = s2.length();  
