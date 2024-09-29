@@ -41,7 +41,7 @@ String getPublisher() {
                 "Publisher: " + publisher);
     }
 }
-public class Main {
+public class Exp4 {
     public static void main(String[] args) {
         Book book = new Book();
         book.details();
