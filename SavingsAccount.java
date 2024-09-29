@@ -2,7 +2,7 @@ import java.util.*;
 class SavingsAccount {
     static double annualInterestRate;
     private double savingsBalance;
-    public SavingsAccount(double initialBalance) {
+    SavingsAccount(double initialBalance) {
         savingsBalance = initialBalance;
     }
     void calculateMonthlyInterest() {
