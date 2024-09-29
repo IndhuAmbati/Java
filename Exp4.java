@@ -43,8 +43,8 @@ String getPublisher() {
 }
 class Exp4 {
     public static void main(String[] args) {
-        Book book = new Book();
-        book.details();
-        book.getBookInfo();
+        Book b = new Book();
+        b.details();
+        b.getBookInfo();
     }
 }
