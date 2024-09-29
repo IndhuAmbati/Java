@@ -1,3 +1,4 @@
+import java.util.*;
 class PrimeFibonacci {
     boolean isPrime(int n) {
         if (n <= 1) {
@@ -20,7 +21,7 @@ class PrimeFibonacci {
         }
     }
 }
-public class Exp5{
+class Exp5{
     public static void main(String[] args) {
         System.out.println("Prime Fibonacci numbers below 100,000:");
         PrimeFibonacci p=new PrimeFibonacci();
