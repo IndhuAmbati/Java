@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class Book {
     String bookName;
    String isbnNumber;
@@ -41,7 +41,7 @@ String getPublisher() {
                 "Publisher: " + publisher);
     }
 }
-public class Exp4 {
+class Exp4 {
     public static void main(String[] args) {
         Book book = new Book();
         book.details();
