@@ -18,7 +18,7 @@ class Invoice {
 }
  class Exp1 {
     public static void main(String[] args) {
-        Invoice invoice = new Invoice("123", "Book", 5, 12.99);
+        Invoice invoice = new Invoice("123", "Hammer", 5, 12.99);
         invoice.getInvoiceAmount();
         
        
