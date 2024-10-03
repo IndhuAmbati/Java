@@ -19,13 +19,13 @@ class StringMerge {
 }
 
     public static void main(String[] args) {  
-        Scanner scanner = new Scanner(System.in);  
+        Scanner sc = new Scanner(System.in);  
 
         System.out.print("Enter the first string (s1): ");  
-        String s1 = scanner.nextLine();  
+        String s1 = sc.nextLine();  
 
         System.out.print("Enter the second string (s2): ");  
-        String s2 = scanner.nextLine();  
+        String s2 = sc.nextLine();  
 
         String mergedString = mergeStrings(s1, s2);  
         System.out.println("Merged String: " + mergedString);  
